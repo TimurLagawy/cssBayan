@@ -1,4 +1,4 @@
-.joinBtn {
+/*.joinBtn {
   width: 10em;
   height: 5ex;
   background-color: gold;
@@ -11,11 +11,23 @@
 
 .joinBtn:hover {
   background-color: bisque;
+}*/
+body {
+  justify-content: center;
+  margin: 0 auto;
 }
 div.menu-bar ul ul {
   display: none;
 }
-
+.bayan-foto {
+  justify-content: center;
+  padding-left: 0px;
+  margin: 0px;
+}
+.header {
+  margin-left: 50px;
+  color: blue;
+}
 div.menu-bar li:hover > ul {
   display: block;
 }
