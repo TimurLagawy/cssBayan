@@ -5,7 +5,9 @@ body {
   font-weight: bold;
   border-radius: 10px;
   margin: 50px;
-  cursor: pointer;
+  cursor: url("image_cursor.png"), pointer; /*cursor: progress;.mycursor {
+    cursor: url("myimage.png"), pointer;	
+    }*/
 }
 body:hover {
   background-color: bisque;
@@ -19,17 +21,35 @@ div.drop-menu ul ul {
   padding-left: 0px;
   margin-left: 0px;
 }
-.header {
+/*.header {
   margin-left: 50px;
   color: blue;
-}
+}*/
 .name_mem {
   color: blue;
 }
 .name_mem:hover {
   color: rgb(36, 30, 30);
 }
-
+.leter_to_mem_plus:hover + .plus_x {
+  opacity: 0;
+}
+.plus {
+  margin-left: 20px;
+}
+.plus_x {
+  opacity: 1;
+} /*
+.plus_x:hover {
+  opacity: 1;
+}
+.leter_to_mem_x {
+  opacity: 0;
+  margin-left: 0;
+}
+.leter_to_mem_x:hover {
+  opacity: 1;
+}*/
 div.drop-menu li:hover > ul {
   display: block;
 }
