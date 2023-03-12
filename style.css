@@ -1,33 +1,34 @@
-/*.joinBtn {
-  width: 10em;
-  height: 5ex;
-  background-color: gold;
-  border: 2px solid firebrick;
-  border-radius: 10px;
+body {
+  /*justify-content: center;
+  margin: 0 auto;*/
+  border: 1px solid rgb(211, 37, 37);
   font-weight: bold;
-  color: black;
+  border-radius: 10px;
+  margin: 50px;
   cursor: pointer;
 }
-
-.joinBtn:hover {
+body:hover {
   background-color: bisque;
-}*/
-body {
-  justify-content: center;
-  margin: 0 auto;
 }
-div.menu-bar ul ul {
+div.drop-menu ul ul {
   display: none;
 }
 .bayan-foto {
   justify-content: center;
   padding-left: 0px;
-  margin: 0px;
+  margin-left: 0px;
 }
 .header {
   margin-left: 50px;
   color: blue;
 }
-div.menu-bar li:hover > ul {
+.name_mem {
+  color: blue;
+}
+.name_mem:hover {
+  color: rgb(36, 30, 30);
+}
+
+div.drop-menu li:hover > ul {
   display: block;
 }
