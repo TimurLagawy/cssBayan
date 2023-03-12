@@ -5,7 +5,8 @@ body {
   font-weight: bold;
   border-radius: 10px;
   margin: 50px;
-  cursor: url("image_cursor.png"), pointer; /*cursor: progress;.mycursor {
+  cursor: url("https://github.com/TimurLagawy/cssBayan/blob/gh-pages/image_cursor.png"),
+    grabbing; /*cursor: progress;.mycursor {
     cursor: url("myimage.png"), pointer;	
     }*/
 }
@@ -31,15 +32,71 @@ div.drop-menu ul ul {
 .name_mem:hover {
   color: rgb(36, 30, 30);
 }
-.leter_to_mem_plus:hover + .plus_x {
+.copy_paste_plus {
+  margin-left: 10px;
+  opacity: 1;
+}
+.copy_paste_x {
   opacity: 0;
 }
-.plus {
-  margin-left: 20px;
+.copy_paste:hover .copy_paste_plus {
+  opacity: 0;
 }
-.plus_x {
+.copy_paste:hover .copy_paste_x {
   opacity: 1;
-} /*
+}
+.work_life_plus {
+  margin-left: 95px;
+  opacity: 1;
+}
+.work_life_x {
+  opacity: 0;
+}
+.work_life:hover .work_life_plus {
+  opacity: 0;
+}
+.work_life:hover .work_life_x {
+  opacity: 1;
+}
+.keep_calm_x {
+  opacity: 0;
+}
+.keep_calm_plus {
+  margin-left: 78px;
+}
+.keep_calm:hover .keep_calm_plus {
+  opacity: 0;
+}
+.keep_calm:hover .keep_calm_x {
+  opacity: 1;
+}
+.dude_plus {
+  margin-left: 115px;
+  opacity: 1;
+}
+.dude_x {
+  opacity: 0;
+}
+.dude:hover .dude_plus {
+  opacity: 0;
+}
+.dude:hover .dude_x {
+  opacity: 1;
+}
+.relax_plus {
+  margin-left: 95px;
+  opacity: 1;
+}
+.relax_x {
+  opacity: 0;
+}
+.relax:hover .relax_plus {
+  opacity: 0;
+}
+.relax:hover .relax_x {
+  opacity: 1;
+}
+/*
 .plus_x:hover {
   opacity: 1;
 }
