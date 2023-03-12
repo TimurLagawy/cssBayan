@@ -9,6 +9,7 @@ body {
 }
 body:hover {
   background-color: bisque;
+  color: black;
 }
 div.drop-menu ul ul {
   display: none;
