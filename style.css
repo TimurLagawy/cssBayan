@@ -1,12 +1,16 @@
+.header {
+  margin-left: 50px;
+  color: black;
+}
 body {
-  /*justify-content: center;
-  margin: 0 auto;*/
+  justify-content: center;
+  margin: 0 auto;
   border: 1px solid rgb(211, 37, 37);
   font-weight: bold;
   border-radius: 10px;
   margin: 50px;
-  cursor: url("https://github.com/TimurLagawy/cssBayan/blob/gh-pages/image_cursor.png"),
-    grabbing; /*cursor: progress;.mycursor {
+  cursor: url(<https://github.com/TimurLagawy/cssBayan/blob/gh-pages/image_cursor.png>),
+    no-drop, pointer; /*cursor: progress;.mycursor {
     cursor: url("myimage.png"), pointer;	
     }*/
 }
@@ -22,10 +26,6 @@ div.drop-menu ul ul {
   padding-left: 0px;
   margin-left: 0px;
 }
-/*.header {
-  margin-left: 50px;
-  color: blue;
-}*/
 .name_mem {
   color: blue;
 }
@@ -96,17 +96,16 @@ div.drop-menu ul ul {
 .relax:hover .relax_x {
   opacity: 1;
 }
-/*
-.plus_x:hover {
-  opacity: 1;
+body:hover .bayan-foto {
+  border: 2px solid #333;
 }
-.leter_to_mem_x {
-  opacity: 0;
-  margin-left: 0;
+.bayan-foto {
+  cursor: pointer;
 }
-.leter_to_mem_x:hover {
-  opacity: 1;
-}*/
+.header {
+  margin-left: 50px;
+  color: black;
+}
 div.drop-menu li:hover > ul {
   display: block;
 }
