@@ -1,3 +1,10 @@
+li {
+  list-style: none;
+}
+.foto-container,
+.bayan-foto {
+  display: none;
+}
 .bayan-body {
   max-width: 30%;
   margin-left: auto;
@@ -20,9 +27,6 @@ body:hover {
   transition-timing-function: ease;
   background-color: bisque;
   color: black;
-}
-div.drop-menu ul ul {
-  display: none;
 }
 .bayan-foto {
   justify-content: center;
@@ -110,6 +114,8 @@ body:hover .bayan-foto {
   color: black;
 }
 
-div.drop-menu li:hover > ul {
+span:hover,
+.foto-container,
+.bayan-foto {
   display: block;
 }
