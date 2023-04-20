@@ -113,9 +113,5 @@ body:hover .bayan-foto {
   margin-left: 10%;
   color: black;
 }
-
-span:hover,
-.foto-container,
-.bayan-foto {
-  display: block;
+*::before {
 }
