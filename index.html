@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="https://github.com/TimurLagawy/fotoForShelter/blob/master/accordion.png?raw=true"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <title>Bayan in CSS & HTML only</title>
   </head>
@@ -13,18 +18,14 @@
       <h1 class="header">cssBayan</h1>
       <div class="drop-menu">
         <div class="copy_paste">
-          <label class="mem_copy_paste"
+          <input class="copy_paste-button" type="checkbox" id="copy_paste" />
+          <label class="mem_copy_paste" type="checkbox" for="copy_paste"
             >You can't just copy and paste CSS
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span class="copy_paste_plus">+</span>
             <span class="copy_paste_x">x</span>
           </label>
-          <input
-            class="copy_paste-button"
-            type="checkbox"
-            name=""
-            id="copy_paste"
-          />
+
           <img
             class="bayan-foto"
             src="https://github.com/TimurLagawy/cssBayan/blob/gh-pages/copy_paste.jpg?raw=true"
@@ -32,19 +33,20 @@
           />
         </div>
         <div class="keep_calm">
-          <label>
-            <span
-              >Keep calm and carry on&nbsp;&nbsp;&nbsp;&nbsp;
-              <span class="keep_calm_plus">+</span>
-              <span class="keep_calm_x">x</span>
-            </span>
-          </label>
           <input
             class="keep_calm-button"
             type="checkbox"
             name="keep_calm"
             id="keep_calm"
           />
+          <label class="mem_keep_calm" type="checkbox" for="keep_calm">
+            <span
+              >Keep calm and carry on&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="keep_calm_plus">+</span>
+              <span class="keep_calm_x">x</span>
+            </span>
+          </label>
+
           <img
             class="bayan-foto"
             src="https://github.com/TimurLagawy/cssBayan/blob/gh-pages/Keep_calm.jpg?raw=true"
@@ -52,18 +54,19 @@
           />
         </div>
         <div class="work_life">
-          <label>
-            <span
-              >Work and life balance&nbsp;&nbsp;&nbsp;
-              <span class="work_life_plus">+</span>
-              <span class="work_life_x">x</span>
-            </span> </label
-          ><input
+          <input
             class="work_life-button"
             type="checkbox"
             name="work_life"
             id="work_life"
           />
+          <label class="mem_work_life" type="checkbox" for="work_life">
+            <span
+              >Work and life balance&nbsp;&nbsp;&nbsp;
+              <span class="work_life_plus">+</span>
+              <span class="work_life_x">x</span>
+            </span>
+          </label>
           <img
             class="bayan-foto"
             src="https://github.com/TimurLagawy/cssBayan/blob/gh-pages/work&lile.jpg?raw=true"
@@ -71,13 +74,14 @@
           />
         </div>
         <div class="dude">
-          <label>
+          <input class="dude-button" type="checkbox" name="dude" id="dude" />
+          <label class="mem_dude" type="checkbox" for="dude">
             <span
               >Dude, where is JS?&nbsp;
               <span class="dude_plus">+</span>
               <span class="dude_x">x</span>
-            </span> </label
-          ><input class="dude-button" type="checkbox" name="dude" id="dude" />
+            </span>
+          </label>
           <img
             class="bayan-foto"
             src="https://github.com/TimurLagawy/cssBayan/blob/gh-pages/where_is_JS.jpg?raw=true"
@@ -85,18 +89,14 @@
           />
         </div>
         <div class="relax">
-          <label>
+          <input class="relax-button" type="checkbox" name="relax" id="relax" />
+          <label class="mem_relax" type="checkbox" for="relax">
             <span
               >Relax and take it easy&nbsp;&nbsp;&nbsp;
               <span class="relax_plus">+</span>
               <span class="relax_x">x</span>
-            </span> </label
-          ><input
-            class="relax-button"
-            type="checkbox"
-            name="relax"
-            id="relax"
-          />
+            </span>
+          </label>
           <img
             class="bayan-foto"
             src="https://github.com/TimurLagawy/cssBayan/blob/gh-pages/Relax.jpg?raw=true"
