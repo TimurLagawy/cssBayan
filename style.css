@@ -113,10 +113,20 @@ body:hover .bayan-foto {
 *:after {
   box-sizing: border-box;
 }
+
 label {
   cursor: pointer;
   margin-left: 10%;
 }
+
+.copy_paste-button,
+.keep_calm-button,
+.work_life-button,
+.dude-button,
+.relax-button {
+  opacity: 0;
+}
+
 .copy_paste,
 .keep_calm,
 .work_life,
@@ -124,6 +134,7 @@ label {
 .relax {
   justify-content: center;
 }
+
 .copy_paste-button:checked + .bayan-foto {
   display: block;
 }
