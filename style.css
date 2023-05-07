@@ -184,10 +184,10 @@ label {
   border-width: 0 5px 10px 5px;
   border-color: transparent transparent #fff transparent;
 }
-.faq-input:checked ~ .faq-text {
+.faq-input:checked ~ .bayan-foto {
   display: block;
 }
-.faq-text {
+.bayan-foto {
   display: none;
   color: #fff;
   font-size: 14px;
