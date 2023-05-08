@@ -151,7 +151,7 @@ label {
   display: block;
   padding: 10px 15px;
   position: relative;
-  color: #fff;
+  color: black;
   cursor: pointer;
   transition: background 0.5s ease-out;
 }
@@ -170,9 +170,7 @@ label {
   background: red;
 }
 .faq-input {
-  /*opacity: 0;*/
-  width: 0px;
-  height: 0px;
+  opacity: 0;
   appearance: none;
   position: absolute;
 }
