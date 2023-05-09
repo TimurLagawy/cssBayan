@@ -139,15 +139,8 @@ label {
 }
 
 /* FAQ*/
-.faq {
-  max-width: 500px;
-  margin: 20px auto;
-}
-.faq-item {
-  margin-bottom: 5px;
-  border: solid 2px red;
-}
-.faq-title {
+
+.mem_copy_paste {
   display: block;
   padding: 10px 15px;
   position: relative;
@@ -155,7 +148,7 @@ label {
   cursor: pointer;
   transition: background 0.5s ease-out;
 }
-.faq-title:after {
+.mem_copy_paste:after {
   content: "";
   display: block;
   border-style: solid;
@@ -166,23 +159,23 @@ label {
   right: 15px;
   transform: translateY(-50%);
 }
-.faq-title:hover {
+.mem_copy_paste:hover {
   background: red;
 }
-.faq-input {
+.copy-paste__button {
   opacity: 0;
   appearance: none;
   position: absolute;
 }
-.faq-input:checked + .faq-title {
+.copy-paste__button:checked + .mem_copy_paste {
   background: red;
 }
-.faq-input:checked + .faq-title:after {
+.copy-paste__button:checked + .mem_copy_paste:after {
   border-style: solid;
   border-width: 0 5px 10px 5px;
   border-color: transparent transparent #fff transparent;
 }
-.faq-input:checked ~ .bayan-foto {
+.copy-paste__button:checked ~ .bayan-foto {
   display: block;
 }
 .bayan-foto {
