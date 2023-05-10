@@ -140,7 +140,8 @@ label {
 
 /* FAQ*/
 
-.mem_copy_paste {
+.mem_copy_paste,
+.mem_keep_calm {
   display: block;
   padding: 10px 15px;
   position: relative;
@@ -148,7 +149,8 @@ label {
   cursor: pointer;
   transition: background 0.5s ease-out;
 }
-.mem_copy_paste:after {
+.mem_copy_paste:after,
+.mem_keep_calm:after {
   content: "";
   display: block;
   border-style: solid;
