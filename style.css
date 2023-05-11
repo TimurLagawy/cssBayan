@@ -21,7 +21,8 @@ body:hover {
   background-color: bisque;
   color: black;
 }
-.bayan-foto {
+.bayan-foto,
+.bayan-foto1 {
   cursor: pointer;
   justify-content: center;
   padding-left: 0;
@@ -161,7 +162,8 @@ label {
   right: 15px;
   transform: translateY(-50%);
 }
-.mem_copy_paste:hover {
+.mem_copy_paste:hover,
+.mem_keep_calm:hover {
   background: red;
 }
 .copy-paste__button {
@@ -169,7 +171,8 @@ label {
   appearance: none;
   position: absolute;
 }
-.copy-paste__button:checked + .mem_copy_paste {
+.copy-paste__button:checked + .mem_copy_paste,
+.keep_calm:checked + .mem_keep_calm {
   background: red;
 }
 .copy-paste__button:checked + .mem_copy_paste:after {
