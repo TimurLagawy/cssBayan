@@ -135,10 +135,6 @@ label {
   justify-content: center;
 }
 
-.copy_paste-button:checked + .bayan-foto {
-  display: block;
-}
-
 /* FAQ*/
 
 .mem_copy_paste,
@@ -175,12 +171,14 @@ label {
 .keep_calm:checked + .mem_keep_calm {
   background: red;
 }
-.copy-paste__button:checked + .mem_copy_paste:after {
+.copy-paste__button:checked + .mem_copy_paste:after,
+.keep_calm-button:checked + .mem_keep_calm:after {
   border-style: solid;
   border-width: 0 5px 10px 5px;
   border-color: transparent transparent #fff transparent;
 }
-.copy-paste__button:checked ~ .bayan-foto {
+.copy-paste__button:checked ~ .bayan-foto,
+.keep_calm-button:checked ~ .bayan-foto {
   display: block;
 }
 .bayan-foto {
