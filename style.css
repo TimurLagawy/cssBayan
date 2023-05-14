@@ -3,9 +3,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .header {
   color: black;
 }
+
 body {
   border: 1px solid rgb(211, 37, 37);
   font-weight: bold;
@@ -13,6 +15,7 @@ body {
     cursor: url("myimage.png"), pointer;	
     }*/
 }
+
 body:hover {
   background: #aaaaaa;
   transition-property: background;
@@ -21,6 +24,7 @@ body:hover {
   background-color: bisque;
   color: black;
 }
+
 .bayan-foto,
 .bayan-foto1 {
   cursor: pointer;
@@ -29,86 +33,111 @@ body:hover {
   margin-left: 0;
   width: 150px;
 }
+
 .name_mem {
   color: blue;
 }
+
 .name_mem:hover {
   color: rgb(36, 30, 30);
 }
+
 .copy_paste_plus {
   margin-left: 1.6%;
   opacity: 1;
 }
+
 .copy_paste_x {
   opacity: 0;
 }
+
 .copy_paste:hover .copy_paste_plus {
   opacity: 0;
 }
+
 .copy_paste:hover .copy_paste_x {
   opacity: 1;
 }
+
 .work_life_plus {
   margin-left: 33%;
   opacity: 1;
 }
+
 .work_life_x {
   opacity: 0;
 }
+
 .work_life:hover .work_life_plus {
   opacity: 0;
 }
+
 .work_life:hover .work_life_x {
   opacity: 1;
   margin-right: 10%;
 }
+
 .keep_calm_x {
   opacity: 0;
 }
+
 .keep_calm_plus {
   margin-left: 27%;
 }
+
 .keep_calm:hover .keep_calm_plus {
   opacity: 0;
 }
+
 .keep_calm:hover .keep_calm_x {
   opacity: 1;
 }
+
 .dude_plus {
   margin-left: 41%;
   opacity: 1;
 }
+
 .dude_x {
   opacity: 0;
 }
+
 .dude:hover .dude_plus {
   opacity: 0;
 }
+
 .dude:hover .dude_x {
   opacity: 1;
   margin-right: 10%;
 }
+
 .relax_plus {
   margin-left: 33%;
   opacity: 1;
 }
+
 .relax_x {
   opacity: 0;
 }
+
 .relax:hover .relax_plus {
   opacity: 0;
 }
+
 .relax:hover .relax_x {
   opacity: 1;
   margin-right: 10%;
 }
+
 body:hover .bayan-foto {
   border: 2px solid #333;
 }
+
 .header {
   margin-left: 10%;
   color: black;
-} /* ****************************  add new function********************** */
+}
+/* ****************************  add new function********************** */
 *:before,
 *:after {
   box-sizing: border-box;
@@ -147,6 +176,7 @@ label {
   cursor: pointer;
   transition: background 0.5s ease-out;
 }
+
 .mem_copy_paste:after,
 .mem_keep_calm:after,
 .mem_relax:after {
@@ -160,30 +190,36 @@ label {
   right: 15px;
   transform: translateY(-50%);
 }
+
 .mem_copy_paste:hover,
 .mem_keep_calm:hover,
 .mem_relax:hover {
   background: red;
 }
+
 .copy-paste__button {
   opacity: 0;
   appearance: none;
   position: absolute;
 }
+
 .copy-paste__button:checked + .mem_copy_paste,
 .keep_calm:checked + .mem_keep_calm {
   background: red;
 }
+
 .copy-paste__button:checked + .mem_copy_paste:after,
 .keep_calm-button:checked + .mem_keep_calm:after {
   border-style: solid;
   border-width: 0 5px 10px 5px;
   border-color: transparent transparent #fff transparent;
 }
+
 .copy-paste__button:checked ~ .bayan-foto,
 .keep_calm-button:checked ~ .bayan-foto {
   display: block;
 }
+
 .bayan-foto {
   display: none;
   color: #fff;
