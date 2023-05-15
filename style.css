@@ -42,21 +42,17 @@ body:hover {
   color: rgb(36, 30, 30);
 }
 
-.copy_paste_plus {
+.copy-paste-plus {
   margin-left: 1.6%;
   opacity: 1;
 }
 
-.copy_paste_x {
+.copy-paste-x {
   opacity: 0;
 }
 
 .copy_paste:hover .copy_paste_plus {
   opacity: 0;
-}
-
-.copy_paste:hover .copy_paste_x {
-  opacity: 1;
 }
 
 .work_life_plus {
@@ -145,11 +141,10 @@ body:hover .bayan-foto {
 
 label {
   cursor: pointer;
-  margin-left: 10%;
 }
 
-.copy_paste-button,
-.keep_calm-button,
+.copy-paste__button,
+.keep-calm__button,
 .work_life-button,
 .dude-button,
 .relax-button {
@@ -177,20 +172,6 @@ label {
   transition: background 0.5s ease-out;
 }
 
-.mem_copy_paste:after,
-.mem_keep_calm:after,
-.mem_relax:after {
-  content: "";
-  display: block;
-  border-style: solid;
-  border-width: 10px 5px 0 5px;
-  border-color: #fff transparent transparent transparent;
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-}
-
 .mem_copy_paste:hover,
 .mem_keep_calm:hover,
 .mem_relax:hover {
@@ -204,19 +185,20 @@ label {
 }
 
 .copy-paste__button:checked + .mem_copy_paste,
-.keep_calm:checked + .mem_keep_calm {
+.keep-calm__button:checked + .mem_keep_calm {
   background: red;
 }
 
-.copy-paste__button:checked + .mem_copy_paste:after,
-.keep_calm-button:checked + .mem_keep_calm:after {
-  border-style: solid;
-  border-width: 0 5px 10px 5px;
-  border-color: transparent transparent #fff transparent;
+.copy-paste__button:checked ~ .copy-paste-x {
+  opacity: 1;
+}
+
+.copy-paste__button:checked ~ .copy-paste-plus {
+  opacity: 0;
 }
 
 .copy-paste__button:checked ~ .bayan-foto,
-.keep_calm-button:checked ~ .bayan-foto {
+.keep-calm__button:checked ~ .bayan-foto {
   display: block;
 }
 
