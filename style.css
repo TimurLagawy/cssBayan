@@ -81,11 +81,11 @@ body:hover {
   margin-left: 27%;
 }
 
-.keep_calm:hover .keep_calm_plus {
+.keep-calm:hover .keep_calm_plus {
   opacity: 0;
 }
 
-.keep_calm:hover .keep_calm_x {
+.keep-calm:hover .keep_calm_x {
   opacity: 1;
 }
 
@@ -152,7 +152,7 @@ label {
 }
 
 .copy_paste,
-.keep_calm,
+.keep-calm,
 .work_life,
 .dude,
 .relax {
@@ -162,7 +162,7 @@ label {
 /* FAQ*/
 
 .mem_copy_paste,
-.mem_keep_calm,
+.mem-keep-calm,
 .mem_relax {
   display: block;
   padding: 10px 15px;
@@ -173,7 +173,7 @@ label {
 }
 
 .mem_copy_paste:hover,
-.mem_keep_calm:hover,
+.mem-keep-calm:hover,
 .mem_relax:hover {
   background: red;
 }
@@ -185,7 +185,7 @@ label {
 }
 
 .copy-paste__button:checked + .mem_copy_paste,
-.keep-calm__button:checked + .mem_keep_calm {
+.keep-calm__button:checked + .mem-keep-calm {
   background: red;
 }
 
