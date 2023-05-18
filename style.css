@@ -60,7 +60,7 @@ body:hover {
   opacity: 1;
 }
 
-.work_life_x {
+.work-life-x {
   opacity: 0;
 }
 
@@ -68,7 +68,7 @@ body:hover {
   opacity: 0;
 }
 
-.work-life:hover .work_life_x {
+.work-life:hover .work-life-x {
   opacity: 1;
   margin-right: 10%;
 }
