@@ -145,8 +145,8 @@ label {
 
 .copy-paste__button,
 .keep-calm__button,
-.work_life-button,
-.dude-button,
+.work-life__button,
+.dude__button,
 .relax-button {
   opacity: 0;
 }
@@ -207,3 +207,4 @@ label {
   color: #fff;
   font-size: 14px;
 }
+
