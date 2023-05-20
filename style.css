@@ -107,20 +107,20 @@ body:hover {
   margin-right: 10%;
 }
 
-.relax_plus {
+.relax__plus {
   margin-left: 33%;
   opacity: 1;
 }
 
-.relax_x {
+.relax__x {
   opacity: 0;
 }
 
-.relax:hover .relax_plus {
+.relax:hover .relax__plus {
   opacity: 0;
 }
 
-.relax:hover .relax_x {
+.relax:hover .relax__x {
   opacity: 1;
   margin-right: 10%;
 }
@@ -147,7 +147,7 @@ label {
 .keep-calm__button,
 .work-life__button,
 .dude__button,
-.relax-button {
+.relax__button {
   opacity: 0;
 }
 
@@ -163,7 +163,7 @@ label {
 
 .mem_copy_paste,
 .mem-keep-calm,
-.mem_relax {
+.relax__mem {
   display: block;
   padding: 10px 15px;
   position: relative;
@@ -174,7 +174,7 @@ label {
 
 .mem_copy_paste:hover,
 .mem-keep-calm:hover,
-.mem_relax:hover {
+.relax__mem:hover {
   background: red;
 }
 
@@ -207,4 +207,3 @@ label {
   color: #fff;
   font-size: 14px;
 }
-
