@@ -55,20 +55,20 @@ body:hover {
   opacity: 0;
 }
 
-.work-life-plus {
+.work-life__plus {
   margin-left: 33%;
   opacity: 1;
 }
 
-.work-life-x {
+.work-life__x {
   opacity: 0;
 }
 
-.work-life:hover .work-life-plus {
+.work-life:hover .work-life__plus {
   opacity: 0;
 }
 
-.work-life:hover .work-life-x {
+.work-life:hover .work-life__x {
   opacity: 1;
   margin-right: 10%;
 }
