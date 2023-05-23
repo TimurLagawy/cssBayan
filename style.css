@@ -89,20 +89,20 @@ body:hover {
   opacity: 1;
 }
 
-.dude_plus {
+.dude__plus {
   margin-left: 41%;
   opacity: 1;
 }
 
-.dude_x {
+.dude__x {
   opacity: 0;
 }
 
-.dude:hover .dude_plus {
+.dude:hover .dude__plus {
   opacity: 0;
 }
 
-.dude:hover .dude_x {
+.dude:hover .dude__x {
   opacity: 1;
   margin-right: 10%;
 }
