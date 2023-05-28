@@ -162,7 +162,7 @@ label {
 /* FAQ*/
 
 .mem_copy_paste,
-.mem-keep-calm,
+.keep-calm__mem,
 .relax__mem {
   display: block;
   padding: 10px 15px;
@@ -173,7 +173,7 @@ label {
 }
 
 .mem_copy_paste:hover,
-.mem-keep-calm:hover,
+.keep-calm__mem:hover,
 .relax__mem:hover {
   background: red;
 }
@@ -185,7 +185,7 @@ label {
 }
 
 .copy-paste__button:checked + .mem_copy_paste,
-.keep-calm__button:checked + .mem-keep-calm {
+.keep-calm__button:checked + .keep-calm__mem {
   background: red;
 }
 
