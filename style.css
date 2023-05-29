@@ -42,12 +42,12 @@ body:hover {
   color: rgb(36, 30, 30);
 }
 
-.copy-paste-plus {
+.copy-paste__plus {
   margin-left: 1.6%;
   opacity: 1;
 }
 
-.copy-paste-x {
+.copy-paste__x {
   opacity: 0;
 }
 
@@ -189,11 +189,11 @@ label {
   background: red;
 }
 
-.copy-paste__button:checked ~ .copy-paste-x {
+.copy-paste__button:checked ~ .copy-paste__x {
   opacity: 1;
 }
 
-.copy-paste__button:checked ~ .copy-paste-plus {
+.copy-paste__button:checked ~ .copy-paste__plus {
   opacity: 0;
 }
 
