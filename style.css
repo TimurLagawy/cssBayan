@@ -198,7 +198,8 @@ label {
 }
 
 .copy-paste__button:checked ~ .bayan-foto,
-.keep-calm__button:checked ~ .bayan-foto {
+.keep-calm__button:checked ~ .bayan-foto,
+.work-life__button:checked ~ .bayan-foto {
   display: block;
 }
 
