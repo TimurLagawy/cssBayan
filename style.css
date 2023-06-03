@@ -43,7 +43,7 @@ body:hover {
 }
 
 .copy-paste__plus {
-  margin-left: 1.6%;
+  margin-left: 50px;
   opacity: 1;
 }
 
@@ -210,3 +210,4 @@ label {
   color: #fff;
   font-size: 14px;
 }
+copy-paste__plus
