@@ -161,7 +161,7 @@ label {
 
 /* FAQ*/
 
-.mem_copy_paste,
+.copy-paste__mem,
 .keep-calm__mem,
 .relax__mem {
   display: block;
@@ -172,7 +172,7 @@ label {
   transition: background 0.5s ease-out;
 }
 
-.mem_copy_paste:hover,
+.copy-paste__mem:hover,
 .keep-calm__mem:hover,
 .relax__mem:hover {
   background: red;
@@ -184,7 +184,7 @@ label {
   position: absolute;
 }
 
-.copy-paste__button:checked + .mem_copy_paste,
+.copy-paste__button:checked + .copy-paste__mem,
 .keep-calm__button:checked + .keep-calm__mem {
   background: red;
 }
@@ -210,4 +210,3 @@ label {
   color: #fff;
   font-size: 14px;
 }
-copy-paste__plus
