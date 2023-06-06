@@ -186,7 +186,8 @@ label {
 
 .copy-paste__button:checked + .copy-paste__mem,
 .keep-calm__button:checked + .keep-calm__mem,
-.work-life__button:checked + .work-life__mem {
+.work-life__button:checked + .work-life__mem,
+.dude__button:checked + .dude__mem {
   background: red;
 }
 
