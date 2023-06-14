@@ -26,9 +26,8 @@ body:hover {
 .bayan-foto5 {
   cursor: pointer;
   justify-content: center;
-  padding: 0, 0;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 0;
+  margin: auto;
   width: 150px;
 }
 
