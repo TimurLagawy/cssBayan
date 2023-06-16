@@ -40,11 +40,12 @@ body:hover {
 }
 
 .copy-paste__plus {
-  margin-left: 50px;
+  margin-right: 0px;
   opacity: 1;
 }
 
 .copy-paste__x {
+  margin-right: 0px;
   opacity: 0;
 }
 /*nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
@@ -71,11 +72,12 @@ body:hover {
 }
 
 .keep-calm-x {
+  margin-right: auto;
   opacity: 0;
 }
 
 .keep-calm-plus {
-  margin-left: 27%;
+  margin-right: auto;
 }
 
 .keep-calm:hover .keep-calm-plus {
@@ -160,6 +162,7 @@ body:hover .bayan-foto {
   position: relative;
   cursor: pointer;
   transition: background 0.5s ease-out;
+  justify-content: space-between;
 }
 
 .copy-paste__mem:hover,
@@ -204,3 +207,4 @@ body:hover .bayan-foto {
   color: #fff;
   font-size: 14px;
 }
+copy-paste__mem
