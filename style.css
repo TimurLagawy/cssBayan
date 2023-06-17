@@ -172,18 +172,14 @@ body:hover .bayan-foto {
   background: red;
 }
 
-.copy-paste__button {
-  opacity: 0;
-  appearance: none;
-  position: absolute;
-}
-
 .copy-paste__button:checked + .copy-paste__mem,
 .keep-calm__button:checked + .keep-calm__mem,
 .work-life__button:checked + .work-life__mem,
 .dude__button:checked + .dude__mem,
 .relax__button:checked + .relax__mem {
+  display: block;
   background: red;
+  justify-content: space-between;
 }
 
 .copy-paste__button:checked ~ .copy-paste__x {
@@ -207,4 +203,3 @@ body:hover .bayan-foto {
   color: #fff;
   font-size: 14px;
 }
-copy-paste__mem
