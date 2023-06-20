@@ -119,11 +119,6 @@ body:hover {
   opacity: 0;
 }
 
-.relax:hover .relax__x {
-  opacity: 1;
-  margin-right: 10%;
-}
-
 body:hover .bayan-foto {
   border: 2px solid #333;
 }
@@ -184,7 +179,7 @@ body:hover .bayan-foto {
 }
 
 .copy-paste__button:checked ~ .copy-paste__x {
-  opacity: 1;
+  color: white;
 }
 
 .copy-paste__button:checked ~ .copy-paste__plus {
@@ -203,4 +198,9 @@ body:hover .bayan-foto {
   display: none;
   color: #fff;
   font-size: 14px;
+}
+
+.relax:hover .relax__x {
+  opacity: 1;
+  margin-right: 10%;
 }
