@@ -40,7 +40,8 @@ body:hover {
 }
 
 .copy-paste__plus,
-.work-life__plus {
+.work-life__plus,
+.keep-calm-plus {
   margin-right: 0px;
   opacity: 1;
 }
@@ -63,10 +64,6 @@ body:hover {
 .work-life:hover .work-life__x {
   opacity: 1;
   margin-right: 10%;
-}
-
-.keep-calm-plus {
-  margin-right: auto;
 }
 
 .keep-calm:hover .keep-calm-plus {
