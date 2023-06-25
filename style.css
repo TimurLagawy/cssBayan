@@ -42,6 +42,7 @@ body:hover {
 .copy-paste__plus,
 .work-life__plus,
 .keep-calm-plus,
+.relax__plus,
 .dude__plus {
   margin-right: 0px;
   opacity: 1;
@@ -49,7 +50,8 @@ body:hover {
 
 .copy-paste__x,
 .work-life__x,
-.keep-calm-x {
+.keep-calm-x,
+.relax__x {
   margin-right: 0px;
   opacity: 0;
 }
@@ -86,15 +88,6 @@ body:hover {
 .dude:hover .dude__x {
   opacity: 1;
   margin-right: 10%;
-}
-
-.relax__plus {
-  margin-left: 33%;
-  opacity: 1;
-}
-
-.relax__x {
-  opacity: 0;
 }
 
 .relax:hover .relax__plus {
