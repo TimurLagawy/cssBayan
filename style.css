@@ -57,21 +57,15 @@ body:hover {
   opacity: 0;
 }
 /*nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
-.copy_paste:hover .copy_paste_plus {
-  opacity: 0;
-}
-
-.work-life:hover .work-life__plus {
+.copy_paste:hover .copy_paste_plus,
+.work-life:hover .work-life__plus,
+.keep-calm:hover .keep-calm-plus {
   opacity: 0;
 }
 
 .work-life:hover .work-life__x {
   opacity: 1;
   margin-right: 10%;
-}
-
-.keep-calm:hover .keep-calm-plus {
-  opacity: 0;
 }
 
 .keep-calm:hover .keep-calm-x {
