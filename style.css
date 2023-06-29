@@ -63,22 +63,15 @@ body:hover {
   opacity: 0;
 }
 
-.work-life:hover .work-life__x {
+.work-life:hover .work-life__x,
+.keep-calm:hover .keep-calm-x,
+.dude:hover .dude__x {
   opacity: 1;
   margin-right: 10%;
-}
-
-.keep-calm:hover .keep-calm-x {
-  opacity: 1;
 }
 
 .dude:hover .dude__plus {
   opacity: 0;
-}
-
-.dude:hover .dude__x {
-  opacity: 1;
-  margin-right: 10%;
 }
 
 .relax:hover .relax__plus {
