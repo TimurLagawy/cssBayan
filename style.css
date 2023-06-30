@@ -70,10 +70,7 @@ body:hover {
   margin-right: 10%;
 }
 
-.dude:hover .dude__plus {
-  opacity: 0;
-}
-
+.dude:hover .dude__plus,
 .relax:hover .relax__plus {
   opacity: 0;
 }
