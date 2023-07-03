@@ -59,7 +59,9 @@ body:hover {
 /*nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
 .copy_paste:hover .copy_paste_plus,
 .work-life:hover .work-life__plus,
-.keep-calm:hover .keep-calm-plus {
+.keep-calm:hover .keep-calm-plus,
+.dude:hover .dude__plus,
+.relax:hover .relax__plus {
   opacity: 0;
 }
 
@@ -68,11 +70,6 @@ body:hover {
 .dude:hover .dude__x {
   opacity: 1;
   margin-right: 10%;
-}
-
-.dude:hover .dude__plus,
-.relax:hover .relax__plus {
-  opacity: 0;
 }
 
 body:hover .bayan-foto {
