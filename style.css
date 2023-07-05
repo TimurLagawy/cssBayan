@@ -67,7 +67,8 @@ body:hover {
 
 .work-life:hover .work-life__x,
 .keep-calm:hover .keep-calm-x,
-.dude:hover .dude__x {
+.dude:hover .dude__x,
+.relax:hover .relax__x {
   opacity: 1;
   margin-right: 10%;
 }
