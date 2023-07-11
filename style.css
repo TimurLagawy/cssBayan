@@ -56,7 +56,7 @@ body:hover {
   margin-right: 0px;
   opacity: 0;
 }
-/*nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+
 .copy_paste:hover .copy_paste_plus,
 .work-life:hover .work-life__plus,
 .keep-calm:hover .keep-calm-plus,
@@ -82,7 +82,6 @@ body:hover .bayan-foto {
   margin-left: 10%;
   color: black;
 }
-/* ****************************  add new function********************** */
 
 .copy-paste__button,
 .keep-calm__button,
@@ -99,8 +98,6 @@ body:hover .bayan-foto {
 .relax {
   justify-content: center;
 }
-
-/* FAQ*/
 
 .copy-paste__mem,
 .keep-calm__mem,
